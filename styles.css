@@ -2,6 +2,39 @@
     font-size: 50px;
     font-weight: bold;
     color: #333333;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
     font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.Calculator {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #cccccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.Input {
+    width: 95%;
+    height: 50px;
+    font-size: 24px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    text-align: right;
+}
+
+.Button {
+    width: 22%;
+    height: 50px;
+    margin: 1%;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e0e0e0;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
